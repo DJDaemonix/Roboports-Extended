@@ -5,14 +5,14 @@ data:extend
 
  {
     type = "technology",
-    name = "expanded-robotics",
+    name = "re--expanded-robotics",
     icon_size = 128,
     icon = "__base__/graphics/technology/robotics.png",
     effects =
     {
       {
         type = "unlock-recipe",
-        recipe = "roboport-mk2"
+        recipe = "re--roboport-mk2"
       },
     },
 	prerequisites = { "construction-robotics", "logistic-robotics" },
@@ -33,17 +33,17 @@ data:extend
 
   {
     type = "technology",
-    name = "advanced-robotics",
+    name = "re--advanced-robotics",
     icon_size = 128,
     icon = "__base__/graphics/technology/construction-robotics.png",
     effects =
     {
       {
         type = "unlock-recipe",
-        recipe = "roboport-mk3"
+        recipe = "re--roboport-mk3"
       },
     },
-	prerequisites = { "expanded-robotics" },
+	prerequisites = { "re--expanded-robotics" },
     unit =
     {
       count = 400,
@@ -61,25 +61,25 @@ data:extend
 
   {
     type = "technology",
-    name = "special-purpose-roboports",
+    name = "re--special-purpose-roboports",
     icon_size = 128,
     icon = "__base__/graphics/entity/roboport/roboport-base.png",
     effects =
     {
       {
         type = "unlock-recipe",
-        recipe = "roboport-mk3-logistic"
+        recipe = "re--roboport-mk3-logistic"
       },
       {
         type = "unlock-recipe",
-        recipe = "roboport-mk3-construction"
+        recipe = "re--roboport-mk3-construction"
       },
       {
         type = "unlock-recipe",
-        recipe = "roboport-mk3-reinforced"
+        recipe = "re--roboport-mk3-reinforced"
       },
     },
-	prerequisites = { "advanced-robotics" },
+	prerequisites = { "re--advanced-robotics" },
     unit =
     {
       count = 350,

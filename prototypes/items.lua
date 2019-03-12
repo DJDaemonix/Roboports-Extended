@@ -4,9 +4,9 @@ data:extend
 
 
   {
-	--roboport-mk2
+	--re--roboport-mk2
     type = "item",
-    name = "roboport-mk2",
+    name = "re--roboport-mk2",
     icon = "__base__/graphics/icons/roboport.png",
     icon_size = 32,
     subgroup = "logistic-network",
@@ -16,9 +16,9 @@ data:extend
   },
 
   {
-	--roboport-mk3
+	--re--roboport-mk3
     type = "item",
-    name = "roboport-mk3",
+    name = "re--roboport-mk3",
     icon = "__base__/graphics/icons/roboport.png",
     icon_size = 32,
     subgroup = "logistic-network",
@@ -28,9 +28,9 @@ data:extend
   },
 
   {
-    --roboport-mk3-reinforced
+    --re--roboport-mk3-reinforced
       type = "item",
-      name = "roboport-mk3-reinforced",
+      name = "re--roboport-mk3-reinforced",
       icon = "__base__/graphics/icons/roboport.png",
       icon_size = 32,
       subgroup = "logistic-network",
@@ -40,9 +40,9 @@ data:extend
   },
 
   {
-    --roboport-mk3-logistic
+    --re--roboport-mk3-logistic
       type = "item",
-      name = "roboport-mk3-logistic",
+      name = "re--roboport-mk3-logistic",
       icon = "__base__/graphics/icons/roboport.png",
       icon_size = 32,
       subgroup = "logistic-network",
@@ -52,9 +52,9 @@ data:extend
   },
 
   {
-    --roboport-mk3-construction
+    --re--roboport-mk3-construction
       type = "item",
-      name = "roboport-mk3-construction",
+      name = "re--roboport-mk3-construction",
       icon = "__base__/graphics/icons/roboport.png",
       icon_size = 32,
       subgroup = "logistic-network",
